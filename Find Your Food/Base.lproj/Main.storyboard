@@ -145,6 +145,50 @@
             </objects>
             <point key="canvasLocation" x="1445.5999999999999" y="138.98050974512745"/>
         </scene>
+        <!--Favorites Page-->
+        <scene sceneID="kCP-Uz-UiD">
+            <objects>
+                <viewController title="Favorites Page" id="uL1-IF-Fak" customClass="TableViewController" customModule="Find_Your_Food" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ltf-AU-RLo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jEB-Jd-59J">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="HAS-hU-wnI" userLabel="favoritesLabel">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HAS-hU-wnI" id="H6R-y1-B1J">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ltf-AU-RLo" id="Di3-pj-Oq6"/>
+                                    <outlet property="delegate" destination="Ltf-AU-RLo" id="A60-jI-CMo"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9P8-55-HSd" firstAttribute="trailing" secondItem="jEB-Jd-59J" secondAttribute="trailing" id="Gkc-Gq-Bk3"/>
+                            <constraint firstItem="jEB-Jd-59J" firstAttribute="leading" secondItem="9P8-55-HSd" secondAttribute="leading" id="j1p-HW-Y7a"/>
+                            <constraint firstItem="jEB-Jd-59J" firstAttribute="top" secondItem="9P8-55-HSd" secondAttribute="top" id="wzc-rP-cN2"/>
+                            <constraint firstItem="9P8-55-HSd" firstAttribute="bottom" secondItem="jEB-Jd-59J" secondAttribute="bottom" id="xh1-uQ-TeA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9P8-55-HSd"/>
+                    </view>
+                    <connections>
+                        <outlet property="myTableView" destination="jEB-Jd-59J" id="wCS-9c-DWn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2e2-Xy-V1z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2102" y="139"/>
+        </scene>
     </scenes>
     <resources>
         <image name="welcome" width="1242" height="2208"/>
