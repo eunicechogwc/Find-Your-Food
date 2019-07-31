@@ -13,11 +13,8 @@
 		CC22BD0922EF9577003B2314 /* Find_Your_Food.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC22BD0722EF9577003B2314 /* Find_Your_Food.xcdatamodeld */; };
 		CC22BD0B22EF9578003B2314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC22BD0A22EF9578003B2314 /* Assets.xcassets */; };
 		CC22BD0E22EF9578003B2314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC22BD0C22EF9578003B2314 /* LaunchScreen.storyboard */; };
-<<<<<<< HEAD
 		EF2D5C94EEBB23DF76E264F7 /* Pods_Find_Your_Food.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747B38FA2F478F4162DC4D52 /* Pods_Find_Your_Food.framework */; };
-=======
-		CCDE8A4922F0EC9A00512942 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDE8A4822F0EC9A00512942 /* TableViewController.swift */; };
->>>>>>> 6b6014c7b7133b42bd8956fe4360f9f198ab5c6c
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
