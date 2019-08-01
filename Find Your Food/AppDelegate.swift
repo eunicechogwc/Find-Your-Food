@@ -8,10 +8,12 @@
 
 import UIKit
 import CoreData
+import YelpAPI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    
     var window: UIWindow?
 
 
