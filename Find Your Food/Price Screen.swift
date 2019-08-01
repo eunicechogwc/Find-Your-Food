@@ -9,18 +9,7 @@
 import UIKit
 
 class Price_Screen: UIViewController {
-    class ViewController: UIViewController {
-        @IBOutlet weak var userNameTextField: UITextField!
-    @IBAction func lowPriceButtonTapped(_ sender: Any) {
-        // Read textValue user inputs into userNameValue variable
-        let priceValue = lowPriceButtonTapped.text
-        
-        // Check of userNameValue is not empty
-        if isStringEmpty(userNameValue!) == true
-        {
-            return
-        }
-    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
